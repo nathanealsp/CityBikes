@@ -1,5 +1,6 @@
-import React from "react";
-
+import React from 'react';
+// THIS IS THE LOADING COMPONENT IT ONLY SHOWS A SPINNING BICYCLE,
+// AWAITING THE API RESULT
 const Loading = () => (
   <div className="spinner">
     <h1>

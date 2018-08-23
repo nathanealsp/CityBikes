@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
 // Helper Functions to help me do some grammatical checks
-import { slots, freeBikes } from "../Utilties";
-
+import { slots, freeBikes } from '../Utilities';
+// USING THE slots, freeBikes FOR CHECKS (GRAMMAR CHECKS)
+// THIS COMPONENT IS RENDERING THE STATION AND DISPLAYING THE STATION INFORMATION
 const BikeStation = props => {
   const { name, free_bikes, empty_slots, timestamp } = props.station;
   return (
