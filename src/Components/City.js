@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 // DESTRUCTURING PROPS ON STATELESS COMPONENT INTIATION
 const City = props => {
   const {
@@ -15,8 +15,8 @@ const City = props => {
   );
 };
 
-// City.propTypes = {
-//   id: PropTypes.string,
-// };
+City.propTypes = {
+  id: PropTypes.string,
+};
 
 export default City;

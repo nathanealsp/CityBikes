@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // Helper Functions to help me do some grammatical checks
 import { slots, freeBikes } from '../Utilities';
 // USING THE slots, freeBikes FOR CHECKS (GRAMMAR CHECKS)
@@ -23,6 +24,13 @@ const BikeStation = props => {
       <div className="stationTimeStamp">{timestamp}</div>
     </div>
   );
+};
+
+BikeStation.protoTypes = {
+  name: PropTypes.string,
+  free_bikes: PropTypes.string,
+  empty_slots: PropTypes.string,
+  timestamp: PropTypes.string,
 };
 
 export default BikeStation;
